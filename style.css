@@ -38,9 +38,9 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 .container{
-    width: 1000px;
-    margin: 0 auto;
-
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 p{
     font-weight: 700;
@@ -151,21 +151,28 @@ color:red;
     background-color: #C0C0C0;
 }
 .form1{
-    display: inline-flex;
+    display: inline-block;
     border: 2px solid black;
     margin: 60px 0 0 0;
     width: 200px;
     height: 50px;
+
 }
 .form2{
-    display: inline-flex;
+    display: inline-block;
     border: 2px solid black;
     margin: 60px 0 0 80px;
     width: 200px;
     height: 50px;
+
 }
 .form2:focus{
     box-shadow: #8A2BE2 0 0 4px 4px;
+}
+.form12{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 
